@@ -31,7 +31,15 @@ print(bignum)
 # 6
 import string
 print (string.__dict__)
-
+#its all the attributes of a string
+#7
+pool="the cool of the pool"
+print(pool.upper())
+POOL="THE COOL OF THE POOL"
+print(POOL.lower())
+print(max(pool))
+print(min(pool))
+print(pool.isalpha())
 #8
 z="fun"
 XandYandZ=x+y+z
